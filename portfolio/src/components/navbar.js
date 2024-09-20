@@ -15,10 +15,30 @@ const Navbar = () => {
         </div> 
 
         <div className='m-8 flex text-2xl items-center justify-center gap-4'>
-            <FaLinkedin/>
-            <FaGithub/>
-            <FaSquareXTwitter/>
-            <FaInstagram/>
+            <a 
+            href="https://www.linkedin.com/in/manish-paudel-8798541a9/"
+            target='_blank' rel='noopener noreferrer'>
+              <FaLinkedin/>
+              </a>
+
+              <a 
+            href="https://github.com/manish-290"
+            target='_blank' rel='noopener noreferrer'>
+              <FaGithub/>
+              </a>
+
+              <a 
+            href="https://x.com/ManishCr3ator"
+            target='_blank' rel='noopener noreferrer'>
+              <FaSquareXTwitter/>
+              </a>
+
+              <a 
+            href="https://www.instagram.com/themanish517/"
+            target='_blank' rel='noopener noreferrer'>
+              <FaInstagram/>
+              </a>
+
         </div>
     </nav>
   );
